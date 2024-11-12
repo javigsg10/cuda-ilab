@@ -41,10 +41,11 @@ ENV VIRTUAL_ENV_DISABLE_PROMPT=1
 ENV PATH="/root/.local/bin:$PATH"
 
 # Install Poetry and dependencies
-RUN pip install poetry==1.2 && \
+RUN pip install poetry==1.5.1 && \
     poetry config virtualenvs.create true --local && \
     poetry config virtualenvs.in-project true --local && \
     poetry install --no-interaction -vv
+
 
 # Link virtual environment to a known path
 RUN ln -s $(poetry env info --path) /root/cuda_manager_env
