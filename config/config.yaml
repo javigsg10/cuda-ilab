@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ilab-cuda
+  labels:
+    app: httpd
+  namespace: nvidia-gpu-operator
+spec:
+  securityContext:
+    runAsNonRoot: true
+    seccompProfile:
+      type: RuntimeDefault
+  containers:
+    - name: <container_name>
+      image: 'image-registry.openshift-image-registry.svc:5000/<project_name>/<image_name>'
+      resources:
+        limits:
+          nvidia.com/gpu: "<number_gpus>"
+      ports:
+        - containerPort: 8080
+      securityContext:
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop:
+            - ALL
