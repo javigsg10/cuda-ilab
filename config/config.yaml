@@ -3,16 +3,16 @@ kind: Pod
 metadata:
   name: ilab-cuda
   labels:
-    app: httpd
+    app: ilab-cuda
   namespace: nvidia-gpu-operator
 spec:
   securityContext:
-    runAsNonRoot: true
+    runAsUser: 0 #root: only works with cluster-admin
     seccompProfile:
       type: RuntimeDefault
   containers:
     - name: <container_name>
-      image: 'image-registry.openshift-image-registry.svc:5000/<project_name>/<image_name>'
+      image: 'image-registry.openshift-image-registry.svc:5000/<project_name>/<image_name>' #image-registry.openshift-image-registry.svc:5000/ilab/cuda-ilab-git
       resources:
         limits:
           nvidia.com/gpu: "<number_gpus>"
