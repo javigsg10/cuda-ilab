@@ -1,0 +1,100 @@
+version: 3
+created_by: javi
+domain: pop_culture
+seed_examples:
+  - context: |
+      The 96th Academy Awards ceremony, which was presented by the Academy of Motion Picture Arts and Sciences (AMPAS), took place on March 10, 2024, at the Dolby Theatre in Hollywood, Los Angeles.[1] During the gala, the AMPAS presented Academy Awards (commonly referred to as Oscars) in 23 categories honoring films released in 2023. Comedian Jimmy Kimmel hosted the show for the fourth time.The nominations were announced on January 23, 2024. Oppenheimer led with 13 nominations, followed by Poor Things and Killers of the Flower Moon with 11 and 10, respectively.[2][3][4] Oppenheimer won a leading seven awards, including Best Picture and Best Director.[5] Other major winners were Poor Things with four awards and The Zone of Interest with two. The films which won one award each include American Fiction, Anatomy of a Fall, Barbie, The Boy and the Heron, Godzilla Minus One, The Holdovers, The Last Repair Shop, 20 Days in Mariupol, War Is Over!, and The Wonderful Story of Henry Sugar. The telecast drew 19.5 million viewers in the United States, becoming the most watched awards show since 2020.[6]The Academy held its 14th annual Governors Awards ceremony, hosted by John Mulaney, at the Ray Dolby Ballroom at Ovation Hollywood on January 9, 2024.[7] The Academy Scientific and Technical Awards were presented by host Natasha Lyonne on February 23, 2024, at the Academy Museum of Motion Pictures in Los Angeles.[8]
+    questions_and_answers:
+      - question: When did the 2024 Oscars happen?
+        answer: |
+          The 2024 Oscars were held on March 10, 2024.
+      - question: Where did the 2024 Oscars happen?
+        answer: |
+          The 2024 Oscars happened at the Dolby Theatre in Hollywood, Los Angeles
+      - question: Who hosted the 2024 Oscars?
+        answer: |
+          Comedian Jimmy Kimmel hosted the show for the fourth time
+      - question: How many nominations the movie Oppenheimer received?
+        answer: |
+          Oppenheimer had 13 Oscar nominations.
+      - question: How many awards the movie Oppenheimer won?
+        answer: |
+          Oppenheimer won a leading seven awards, including Best Picture and Best Director.
+  - context: |
+      Awards
+      Christopher Nolan, Best Picture co-winner and Best Director winner
+      Cillian Murphy, Best Actor winner
+      Emma Stone, Best Actress winner
+      Robert Downey Jr., Best Supporting Actor winner
+      Da'Vine Joy Randolph, Best Supporting Actress winner
+      Justine Triet and Arthur Harari, Best Original Screenplay winners
+      Mstyslav Chernov, Best Documentary Feature Film co-winner
+      Jonathan Glazer, Best International Feature Film winner
+      Hayao Miyazaki and Toshio Suzuki, Best Animated Feature winners
+      Wes Anderson, Best Live Action Short co-winner
+      Ludwig Göransson, Best Original Score winner
+      Billie Eilish and Finneas O'Connell, Best Original Song winners
+      Takashi Yamazaki, Best Visual Effects co-winner
+    questions_and_answers:
+      - question: Who won the Best Director award?
+        answer: |
+          Christopher Nolan won the Best Director award
+      - question: Who won the Best Actress award?
+        answer: |
+          Emma Stone won the best actress award
+      - question: Who won the Best Original Screenplay?
+        answer: |
+          Justine Triet and Arthur Harari won the best original screenplay
+  - context: |
+      The pre-show was hosted for the third consecutive year by Vanessa Hudgens, joined by new co-host Julianne Hough.[60] Due to the scheduling change, the pre-show was shortened to 30 minutes.[61] The beginning of the ceremony was delayed by six minutes, due to arrivals being slowed by Israel–Hamas war protests outside of the theatre.[62][63][64]
+      On January 29, 2024, comedian and broadcaster Amelia Dimoldenberg, host of the YouTube interview series Chicken Shop Date, was announced as the social media ambassador and red carpet correspondent. Dimoldenberg was involved in multiple Oscar season events, including the Oscars Nominees luncheon, where she participated in an Academy video production with nominees. She was also involved interviewing people at the Oscars red carpet and the "Oscars 96 Behind the Scenes Tour".[65]
+      Presenters were announced in a series of groups beginning on February 26, 2024.[66][67][68] Performers were announced on February 28, 2024.[69][70] After the first batch of presenters was announced, The Hollywood Reporter learned that the Academy would revive a popular presenting format previously used in 2009,[71] where five Oscar-winning actors for leading and supporting performances took the stage together to introduce the current nominees in their respective categories.[72] David Alan Grier was selected as the event's announcer.[73]
+      Production designers Alana Billingsley and Misty Buckley designed the stage over the course of nine months. According to Billingsley and Buckley, they were inspired by contemporary spaces where people can "meet, exchange, create [like] a modern-day plaza".[74] Throughout the ceremony, the stage subtly changed its design to honor the nominees; the screenplay categories included images of real typewriters, while the Best Costume Design category showcased images of several of the nominated costumes.[75]
+      Messi the Dog from Anatomy of a Fall attended the ceremony and had his own seat in the audience. According to The Hollywood Reporter, multiple companies with nominated films had complained to the Academy about him attending the Oscar nominees luncheon and giving the film an advantage for voting.[76] Before the ceremony, the show's host, Jimmy Kimmel, shared a video in which he could be seen rehearsing his Oscars jokes with Messi. He also made a surprise appearance in the audience of the show and appeared to urinate on Matt Damon's star on the Hollywood Walk of Fame as part of the ongoing Damon–Kimmel feud.[77]
+      Nominees Kaouther Ben Hania, Finneas O'Connell, Billie Eilish, and Mark Ruffalo, as well as presenters Ramy Youssef and Mahershala Ali, wore red Artists4Ceasefire badges calling for a ceasefire in Gaza.[78][79][80][81]
+    questions_and_answers:
+      - question: Who hosted the pre-show?
+        answer: |
+          pre-show was hosted for the third consecutive year by Vanessa Hudgens, joined by new co-host Julianne Hough
+      - question: Who was the the social media ambassador?
+        answer: |
+          comedian and broadcaster Amelia Dimoldenberg, host of the YouTube interview series Chicken Shop Date, was announced as the social media ambassador
+      - question: Did Messi the Dog from Anatomy of a Fall attended to the ceremony?
+        answer: |
+          yes he attended to the ceremony and had his own seat in the audience.
+  - context: |
+      Ratings
+      The American telecast on ABC drew in an average of 19.5 million people over its length, which was a 4% increase from the previous year's ceremony and marking the longest streak of annual ratings increases for the Academy Awards since 2014.[115] However, the show slipped a little among adults ages 18–49 with a 3.81 rating among viewers in that key demographic, down 5% from 4.03 rating of the previous year's ceremony.[116] The viewership peaked in the last half-hour with 21.9 million total viewers.[117] The ceremony scored the biggest audience for any awards show since the 92nd Academy Awards in 2020, and is so far the largest viewership for any live non-sports entertainment program on U.S. television in the post–COVID-19 pandemic era.[118] ABC's Abbott Elementary lead-out also benefitted, with the episode reaching a series high in the 18–49 demo (1.42 rating) and total viewership (6.9 million).[119][120]
+    questions_and_answers:
+      - question: How many people watched the show on avarage?
+        answer: |
+            The American telecast on ABC drew in an average of 19.5 million people over its length
+      - question: How many people watched the show regarding to previous year?
+        answer: |
+            4% increase from the previous year's ceremony
+      - question: What was the peaked viewership of the show?
+        answer: |
+          The viewership peaked in the last half-hour with 21.9 million total viewers
+  - context: |
+        Diversity rules
+        This was the first year that diversity rules for the Best Picture category became mandatory. In June 2020, under its Academy Aperture 2025 initiative, the academy established a set of "representation and inclusion standards" that a film would be required to satisfy in order to compete in the category.[82] For the last two years, filmmakers were just required to submit a confidential "Academy Inclusion Standards" form for data purposes only.[83] There are four general standards, of which a film must satisfy two to be considered for Best Picture: (a) "on-screen representation, themes, and narratives"; (b) "creative leadership and project team"; (c) "industry access and opportunities"; and (d) "audience development".[84]
+        As explained by Alissa Wilkinson of Vox in 2020, the standards "basically break down into two big buckets: standards promoting more inclusive representation and standards promoting more inclusive employment".[85] The standards are intended to provide greater opportunities for employment for underrepresented racial and ethnic groups, women, LGBTQ+ people, and persons with cognitive or physical disabilities.[86]
+        Box office performance of Best Picture nominees
+        When the nominations were announced, the films nominated for Best Picture had earned a combined gross of $1.09 billion at the American and Canadian box offices at the time.[87] Barbie was the highest-grossing film among the Best Picture nominees, with $636 million in domestic box office receipts. Oppenheimer came in second with $327 million. The two films, comprising the Barbenheimer phenomenon, represented 88% of the cumulative box office haul generated by Best Picture nominees prior to their nominations.[88] Oppenheimer became the highest-grossing Best Picture winner since The Lord of the Rings: The Return of the King at the 76th Academy Awards in 2004. It also became the first one to gross more than $100 million at the domestic box office in the decade since Argo at the 85th Academy Awards in 2013.[89]
+    questions_and_answers:
+      - question: How many standards a movie needs to satisfy to be considered for Best Picture award?
+        answer: |
+            There are 4 standards for a movie to be considered for Best Picture.
+      - question: How much made the Barbie movie?
+        answer: |
+            Barbie was the highest-grossing film among the Best Picture nominees, with $636 million in domestic box office receipts
+      - question: How much made Oppenheimer movie?
+        answer: |
+            Oppenheimer made $327 million
+document_outline: |
+  Information about 2024 Oscar Ceremony and awards given to movies.
+document:
+  repo: https://github.com/yurci/oscars2024_knowledge.git
+  commit: e1744af
+  patterns:
+    - oscars2024_results.md
