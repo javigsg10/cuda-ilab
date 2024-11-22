@@ -4,7 +4,7 @@ metadata:
   name: ilab-cuda
   labels:
     app: ilab-cuda
-  namespace: nvidia-gpu-operator
+  namespace: ilab
 spec:
   securityContext:
     runAsUser: 0 #root: only works with cluster-admin
