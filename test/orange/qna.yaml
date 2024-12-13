@@ -1,0 +1,171 @@
+version: 3
+domain: legal
+created_by: IBM Data & AI Tech Sales Team
+seed_examples:
+  - context: |
+      Orange Insurance covers damages to the insured property and third-party liabilities. The insurance provides 24-hour assistance and covers notable aspects like Building, Contents, Civil Liability, Water Damage, Theft, Fire, Explosion, Electrical Damage, and Atmospheric Phenomena. The building coverage includes the dwelling and annexed structures, while contents coverage covers personal items. Civil Liability compensates for damages unintentionally caused by the insured. Water Damage covers damages due to leaks, blockages, or negligence, and Theft coverage is for theft involving force or violence.
+    questions_and_answers:
+      - question: |
+          What types of property damages does Orange Insurance cover?
+        answer: |
+          Orange Insurance covers damages to both the insured property and third-party liabilities, including structures, personal contents, and damages from water, fire, explosion, electrical issues, and specific weather events.
+      - question: |
+          What does Civil Liability coverage entail under Orange Insurance?
+        answer: |
+          Civil Liability coverage under Orange Insurance compensates for damages to third parties that are unintentionally caused by the insured or those living with them.
+      - question: |
+          In which scenarios does Orange Insurance cover water damage?
+        answer: |
+          Orange Insurance covers water damage caused by breaks, blockages, or negligence, such as leaving taps open, originating from the property's pipelines, tanks, or cooling/heating appliances.
+      - question: |
+          What structures are included under building coverage in Orange Insurance?
+        answer: |
+          Orange Insurance building coverage includes the primary dwelling, garages, storage rooms, and fixed installations like water, electricity, and gas systems connected to public service networks.
+      - question: |
+          Does Orange Insurance cover damages from natural weather events?
+        answer: |
+          Yes, Orange Insurance covers damages caused by abnormal weather events, such as rain, wind, hail, and snow, provided these events are classified as atypical due to their intensity or timing.
+  - context: |
+      Orange Insurance includes certain exclusions. Incidents arising from non-residential activities or due to major construction or repair works are not covered. Additionally, items for professional use, lack of property maintenance, or inherent defects that lead to leaks, dampness, or condensation are excluded. Theft without the use of force or violence and valuables in annexed structures are also not covered.
+    questions_and_answers:
+      - question: |
+          Are damages caused by construction work covered under Orange Insurance?
+        answer: |
+          No, Orange Insurance does not cover incidents caused by major construction or repair work.
+      - question: |
+          Does Orange Insurance cover items used for professional or commercial purposes?
+        answer: |
+          No, Orange Insurance does not cover items used for professional or commercial purposes unless explicitly indicated in the contract.
+      - question: |
+          Are damages from poor maintenance or inherent defects covered by Orange Insurance?
+        answer: |
+          No, Orange Insurance does not cover damages resulting from poor maintenance, lack of repair, or inherent defects that cause issues like leaks or dampness.
+      - question: |
+          Will Orange Insurance cover theft if there is no use of force or violence?
+        answer: |
+          No, Orange Insurance only covers theft when force or violence is used; theft without force or intimidation is excluded.
+      - question: |
+          Is jewelry or other valuables stored in annexed structures covered by Orange Insurance?
+        answer: |
+          No, valuables such as jewelry, money, or important documents in annexed structures are not covered under Orange Insurance.
+  - context: |
+      Orange Seguros by Zurich offers an exclusive home insurance policy for Orange customers, supported by Zurich Seguros' extensive experience. Zurich Insurance Europe AG, Spanish Branch, has over 135 years of experience in Spain, with 2.6 million customers and more than 2,000 employees. Orange customers who take out this insurance benefit from a reliable insurer and exclusive advantages. To transition from an existing insurance policy, customers must notify their current insurer one month before renewal. For inquiries, customers can call 900 90 90 60.
+    questions_and_answers:
+      - question: |
+          What exclusive benefits does Orange Seguros by Zurich offer to Orange customers?
+        answer: |
+          Orange Seguros by Zurich provides Orange customers with reliable home insurance and exclusive benefits backed by Zurich’s experience and service.
+      - question: |
+          How long has Zurich Insurance been established in Spain?
+        answer: |
+          Zurich Insurance has been established in Spain for over 135 years.
+      - question: |
+          What is the process for switching to Orange Seguros by Zurich from another insurer?
+        answer: |
+          To switch to Orange Seguros by Zurich, customers must notify their current insurer at least one month before the policy renewal date.
+      - question: |
+          How many customers does Zurich serve in Spain?
+        answer: |
+          Zurich serves 2.6 million customers in Spain.
+      - question: |
+          Where can customers call to get help with their Orange Seguros by Zurich insurance?
+        answer: |
+          Customers can call 900 90 90 60 for assistance with their Orange Seguros by Zurich insurance.
+  - context: |
+      With Orange Seguros by Zurich home insurance, coverage options are available for the building and its contents. Building coverage includes structural elements, such as walls, ceilings, floors, and utilities like heating, water, and electricity. Contents coverage applies to personal items, such as furniture and clothing. Items over 3,000 euros are considered valuable and may require special declaration. Insurance can be tailored with coverage levels: Lite, Complete, and Total, and it protects against fires, glass breakage, and water damage, with optional add-ons like key replacement and storage room theft protection.
+    questions_and_answers:
+      - question: |
+          What items are covered under "contents" in Orange Seguros by Zurich home insurance?
+        answer: |
+          Contents coverage includes furniture, appliances, clothing, and personal items within the home, with special declaration required for items over 3,000 euros.
+      - question: |
+          What are the three levels of coverage offered in Orange Seguros by Zurich home insurance?
+        answer: |
+          The three levels of coverage are Lite, Complete, and Total, allowing customers to choose the level of protection that best suits their needs.
+      - question: |
+          What does building coverage in Orange Seguros by Zurich include?
+        answer: |
+          Building coverage includes structural elements of the home, such as walls, ceilings, floors, and systems like heating, water, and electricity.
+      - question: |
+          Are valuables over a certain amount covered automatically in Orange Seguros by Zurich contents insurance?
+        answer: |
+          No, valuables over 3,000 euros require special declaration for coverage under the contents insurance.
+      - question: |
+          What types of incidents are commonly covered under Orange Seguros by Zurich home insurance?
+        answer: |
+          Common incidents covered include fire, glass breakage, and water damage, with options for additional protections like key replacement and storage room theft.
+  - context: |
+      Zurich Insurance Europe AG, a registered insurance company in Germany, operates in Spain under its Spanish branch, located in Madrid. Zurich is supervised by Germany's Federal Financial Supervisory Authority (BaFin) and follows Spanish regulations as authorized under the right of establishment. In the event of liquidation, Spanish liquidation rules do not apply.
+      Applicable legislation includes:
+      - Insurance Contract Law 50/80 of October 8.
+      - Law 20/2015 on regulation, supervision, and solvency of insurance and reinsurance entities.
+      - Law 7/2004 regarding the Legal Statute of the Insurance Compensation Consortium.
+      Customers can submit complaints to Zurich's Customer Defense Service per established procedures, and unresolved complaints can be escalated to Spain's Directorate General of Insurance and Pension Funds.
+    questions_and_answers:
+      - question: |
+          Which entity supervises Zurich Insurance Europe AG's activities?
+        answer: |
+          Zurich Insurance Europe AG is supervised by the Federal Financial Supervisory Authority (BaFin) in Germany.
+      - question: |
+          Where can customers direct complaints about Zurich Insurance Europe AG’s services?
+        answer: |
+          Complaints can be directed to Zurich's Customer Defense Service. If unresolved, they may be escalated to the Directorate General of Insurance and Pension Funds in Spain.
+      - question: |
+          What laws regulate Zurich Insurance Europe AG's operations in Spain?
+        answer: |
+          Zurich Insurance Europe AG’s operations in Spain are regulated by Insurance Contract Law 50/80, Law 20/2015, and Law 7/2004, among others.
+      - question: |
+          Does Zurich Insurance Europe AG follow Spanish liquidation rules in the event of liquidation?
+        answer: |
+          No, Spanish liquidation rules do not apply to Zurich Insurance Europe AG in the event of liquidation.
+  - context: |
+      Zurich Insurance Europe AG processes personal data for contract management, fraud prevention, and pricing adjustments. For fraud prevention and pricing, the data controller may consult the Asnef credit file. Zurich may also use personal data to send electronic or phone-based marketing communications with the individual's consent. For corporate clients, personal data of representatives is collected for managing contractual obligations.
+      Data collected is retained during the insurance contract's validity and is then blocked for the legal period required.
+    questions_and_answers:
+      - question: |
+          For what purposes does Zurich Insurance Europe AG process personal data?
+        answer: |
+          Zurich processes personal data for contract management, fraud prevention, pricing adjustments, and, with consent, for sending marketing communications.
+      - question: |
+          How long does Zurich retain personal data after the insurance contract ends?
+        answer: |
+          Zurich retains personal data for the duration of the insurance contract and then blocks it for the legally required period.
+      - question: |
+          What data file does Zurich consult for pricing adjustments?
+        answer: |
+          For pricing adjustments, Zurich may consult the Asnef credit file managed by Asnef-Equifax.
+      - question: |
+          Can Zurich send marketing communications to policyholders without consent?
+        answer: |
+          No, Zurich requires policyholder consent to send marketing communications via electronic means or phone calls.
+  - context: |
+      In case of an insurance claim, customers should first mitigate the incident's impact, review their policy’s coverage details, and contact Zurich at 900 90 90 60 with full details of the incident. For theft or vandalism, the customer should report to the police and create an inventory of stolen items. In the event of a domestic emergency, customers can call the same number to connect with a technician.
+    questions_and_answers:
+      - question: |
+          What should customers do immediately after an incident occurs?
+        answer: |
+          Customers should mitigate the consequences, review the policy’s coverage, and contact Zurich with details about the incident.
+      - question: |
+          How should customers report theft or vandalism?
+        answer: |
+          Customers should report theft or vandalism to the police or judicial authority and prepare a list of stolen items.
+      - question: |
+          What is the contact number for Zurich in case of a claim or domestic emergency?
+        answer: |
+          Customers should call Zurich at 900 90 90 60 for claims or domestic emergencies.
+      - question: |
+          Can Zurich help with connecting a technician for domestic emergencies?
+        answer: |
+          Yes, Zurich can quickly connect customers with a technician to address domestic emergencies.
+document_outline: |
+ 	Overview of insurance policy objectives, target coverage options, and scope in Orange Seguros by Zurich.
+document:
+  repo: https://github.com/javigsg10/orange_demo_knowledge.git
+  commit: 6edc053
+  patterns:
+    - seguros_knowledge.md
+
+
+
+
+
