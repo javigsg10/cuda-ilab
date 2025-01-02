@@ -28,7 +28,7 @@ def monitor_directory(directory_path):
         time.sleep(5)  # Adjust the interval as needed
 
 if __name__ == "__main__":
-    directory_to_monitor = "/ruta/a/tu/directorio"  
+    directory_to_monitor = "/root/.local/shared/instructlab/checkpoints"  
     if not os.path.exists(directory_to_monitor):
         print(f"Error:  {directory_to_monitor} doesn't exist.")
     else:
