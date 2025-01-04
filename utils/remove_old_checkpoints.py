@@ -4,8 +4,8 @@ from pathlib import Path
 import shutil
 
 # Directories to monitor
-hf_format    = "/path/to/first/directory"
-full_format  = "/path/to/second/directory"
+hf_format    = "/root/.local/share/instructlab/checkpoints/hf_format"
+full_state  = "/root/.local/share/instructlab/checkpoints/full_state"
 
 # Time interval (in seconds) between checks
 CHECK_INTERVAL = 5
@@ -36,5 +36,5 @@ def monitor_directories(dir1, dir2):
         time.sleep(CHECK_INTERVAL)
 
 if __name__ == "__main__":
-    monitor_directories(hf_format, full_format)
+    monitor_directories(hf_format, full_state)
 
