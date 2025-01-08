@@ -3,122 +3,115 @@ domain: legal
 created_by: IBM Data & AI Tech Sales Team
 seed_examples:
   - context: |
-    	En Aena, trabajamos cada día para ofrecerte una estancia segura en nuestras instalaciones y una experiencia de calidad. Para lograrlo, es necesaria tu colaboración evitando comportamientos que alteren la buena marcha del aeropuerto o causen molestias a otros usuarios. Con carácter enunciativo, pero no exhaustivo ni limitativo, no está permitido: Desarrollar cualquier tipo de actividad comercial o de publicidad, así como el ofrecimiento de cualquier servicio en la infraestructura aeroportuaria sin contar con la previa autorización de Aena o sin disponer del correspondiente contrato suscrito con Aena. La utilización indebida de los servicios y suministros, realizar actividades que puedan deteriorar o modificar el espacio aeroportuario y arrojar residuos fuera de los lugares destinados al efecto. Acceder a las zonas restringidas de seguridad sin autorización para ello y, en concreto, acceder a zonas restringidas de seguridad mediante un título de transporte válido sin intención de volar para ofrecer servicios de cualquier tipo a los pasajeros. Bloquear las salidas de emergencias o utilizarlas sin causa justificada.
-   	questions_and_answers:
+      En Aena, trabajamos cada dia para ofrecerte una estancia segura en nuestras instalaciones y una experiencia de calidad. Para lograrlo, es necesaria tu colaboracion evitando comportamientos que alteren la buena marcha del aeropuerto o causen molestias a otros usuarios. Con caracter enunciativo, pero no exhaustivo ni limitativo, no esta permitido: Desarrollar cualquier tipo de actividad comercial o de publicidad, asi como el ofrecimiento de cualquier servicio en la infraestructura aeroportuaria sin contar con la previa autorizacion de Aena o sin disponer del correspondiente contrato suscrito con Aena. La utilizacion indebida de los servicios y suministros, realizar actividades que puedan deteriorar o modificar el espacio aeroportuario y arrojar residuos fuera de los lugares destinados al efecto. Acceder a las zonas restringidas de seguridad sin autorizacion para ello y, en concreto, acceder a zonas restringidas de seguridad mediante un titulo de transporte valido sin intencion de volar para ofrecer servicios de cualquier tipo a los pasajeros. Bloquear las salidas de emergencias o utilizarlas sin causa justificada.
+    questions_and_answers:
       - question: |
-          ¿Qué se requiere para realizar actividades comerciales o de publicidad en el aeropuerto?
+          Que se requiere para realizar actividades comerciales o de publicidad en el aeropuerto?
         answer: |
-          Para realizar actividades comerciales o de publicidad en el aeropuerto, se necesita contar con la previa autorización de Aena o disponer del correspondiente contrato suscrito con Aena.
+          Para realizar actividades comerciales o de publicidad en el aeropuerto, se necesita contar con la previa autorizacion de Aena o disponer del correspondiente contrato suscrito con Aena.
       - question: |
-          ¿Está permitido acceder a zonas restringidas de seguridad sin autorización?
+          Esta permitido acceder a zonas restringidas de seguridad sin autorizacion?
         answer: |
-          No, no está permitido acceder a zonas restringidas de seguridad sin autorización, ni mediante un título de transporte válido sin intención de volar para ofrecer servicios a los pasajeros.
+          No, no esta permitido acceder a zonas restringidas de seguridad sin autorizacion, ni mediante un titulo de transporte valido sin intencion de volar para ofrecer servicios a los pasajeros.
       - question: |
-          ¿Qué acciones relacionadas con las salidas de emergencia no están permitidas?
+          Que acciones relacionadas con las salidas de emergencia no estan permitidas?
         answer: |
-          No está permitido bloquear las salidas de emergencias o utilizarlas sin causa justificada.
+          No esta permitido bloquear las salidas de emergencias o utilizarlas sin causa justificada.
       - question: |
-          ¿Qué conductas pueden considerarse uso indebido de los servicios y suministros?
+          Que conductas pueden considerarse uso indebido de los servicios y suministros?
         answer: |
           El uso indebido de los servicios y suministros incluye cualquier actividad que pueda deteriorar o modificar el espacio aeroportuario y arrojar residuos fuera de los lugares destinados para ello.
   - context: |
-      Los aeropuertos españoles que gestiona Aena SME S.A (en adelante AENA) son infraestructuras de carácter patrimonial, propiedad de AENA con un carácter netamente finalista, esto es, para facilitar el transporte aéreo a los usuarios. Es por ello que dichas instalaciones se construyen, mantienen y modifican con el fin único de ser utilizados exclusivamente por los viajeros y sus acompañantes, así como las empresas que debidamente autorizadas por AENA presten servicios de distinto tipo a los pasajeros.
-      Actualmente, además, los aeropuertos se configuran como estaciones intermodales de transportes, que permiten a los viajeros pasar de un modo de transporte por antonomasia, el aéreo, a los diversos modos de transporte terrestre existentes, tren, metro, autobuses, taxis, vehículos de alquiler con y sin conductor, vehículos privados y cualquier otra forma de transporte que los usuarios demanden para su movilidad.
+      Los aeropuertos espanoles que gestiona Aena SME S.A (en adelante AENA) son infraestructuras de caracter patrimonial, propiedad de AENA con un caracter netamente finalista, esto es, para facilitar el transporte aereo a los usuarios. Es por ello que dichas instalaciones se construyen, mantienen y modifican con el fin unico de ser utilizados exclusivamente por los viajeros y sus acompanantes, asi como las empresas que debidamente autorizadas por AENA presten servicios de distinto tipo a los pasajeros. Actualmente, ademas, los aeropuertos se configuran como estaciones intermodales de transportes, que permiten a los viajeros pasar de un modo de transporte por antonomasia, el aereo, a los diversos modos de transporte terrestre existentes, tren, metro, autobuses, taxis, vehiculos de alquiler con y sin conductor, vehiculos privados y cualquier otra forma de transporte que los usuarios demanden para su movilidad.
     questions_and_answers:
       - question: |
-          ¿Cuál es el propósito principal de las instalaciones gestionadas por AENA?
+          Cual es el proposito principal de las instalaciones gestionadas por AENA?
         answer: |
-          El propósito principal de las instalaciones gestionadas por AENA es facilitar el transporte aéreo a los usuarios, siendo utilizadas exclusivamente por los viajeros, sus acompañantes y las empresas autorizadas que presten servicios a los pasajeros.
+          El proposito principal de las instalaciones gestionadas por AENA es facilitar el transporte aereo a los usuarios, siendo utilizadas exclusivamente por los viajeros, sus acompanantes y las empresas autorizadas que presten servicios a los pasajeros.
       - question: |
-          ¿Qué caracteriza a los aeropuertos gestionados por AENA en cuanto a su uso?
+          Que caracteriza a los aeropuertos gestionados por AENA en cuanto a su uso?
         answer: |
-          Los aeropuertos gestionados por AENA tienen un carácter patrimonial y finalista, destinados únicamente al transporte aéreo y su uso exclusivo por viajeros, acompañantes y empresas autorizadas.
+          Los aeropuertos gestionados por AENA tienen un caracter patrimonial y finalista, destinados unicamente al transporte aereo y su uso exclusivo por viajeros, acompanantes y empresas autorizadas.
       - question: |
-          ¿Cómo se configuran actualmente los aeropuertos gestionados por AENA?
+          Como se configuran actualmente los aeropuertos gestionados por AENA?
         answer: |
-          Actualmente, los aeropuertos gestionados por AENA se configuran como estaciones intermodales de transporte, permitiendo a los viajeros conectar el transporte aéreo con diversos modos de transporte terrestre como tren, metro, autobuses, taxis, y vehículos de alquiler o privados.
+          Actualmente, los aeropuertos gestionados por AENA se configuran como estaciones intermodales de transporte, permitiendo a los viajeros conectar el transporte aereo con diversos modos de transporte terrestre como tren, metro, autobuses, taxis, y vehiculos de alquiler o privados.
       - question: |
-          ¿Qué opciones de transporte terrestre están disponibles en los aeropuertos intermodales gestionados por AENA?
+          Que opciones de transporte terrestre estan disponibles en los aeropuertos intermodales gestionados por AENA?
         answer: |
-          En los aeropuertos intermodales gestionados por AENA, están disponibles opciones de transporte terrestre como tren, metro, autobuses, taxis, vehículos de alquiler con y sin conductor, vehículos privados y otras formas de transporte demandadas por los usuarios.
+          En los aeropuertos intermodales gestionados por AENA, estan disponibles opciones de transporte terrestre como tren, metro, autobuses, taxis, vehiculos de alquiler con y sin conductor, vehiculos privados y otras formas de transporte demandadas por los usuarios.
   - context: |
-      Desde el punto de vista de las empresas que prestan servicios de cualquier tipo en el aeropuerto y de sus trabajadores, igualmente se distinguen las mismas zonas donde realizan su actividad, siendo necesaria la preceptiva autorización de AENA y/o disponer de un contrato suscrito con esta mercantil. Los trabajadores y personal de dichas empresas deberán disponer, conforme requiere el PNS, de las acreditaciones aeroportuarias correspondientes en función de la zona donde realicen su trabajo. Los aeropuertos son, además, lugares que a menudo presentan grandes concentraciones de personas, lo que hace que sean consideradas como infraestructuras sensibles, tanto desde el punto de vista de la Seguridad Aeroportuaria como de la Seguridad Ciudadana, al resultar idóneos para poderse llevar a cabo actividades calificadas por la normativa penal o sancionadora como delitos o faltas administrativas.
-      Conforme al Real Decreto Ley 13/2010 de 3 de diciembre de actuaciones en el ámbito fiscal, laboral y liberalizadoras para fomentar la inversión y la creación de empleo, AENA asume el conjunto de funciones y obligaciones atribuidas a la antigua Entidad Pública Empresarial AENA en materia de gestión y explotación de los servicios aeroportuarios, así como cualesquiera otras que la normativa nacional o internacional atribuya a los gestores aeroportuarios. Mediante esta norma se asignan y quedan integrados en el patrimonio de esta mercantil pública los bienes adscritos a la antigua EPE afectos al desarrollo de la actividad aeroportuaria, comercial u otros servicios estatales vinculados a la gestión aeroportuaria, incluidos los de tránsito aéreo de aeródromo, dejando además de tener la naturaleza de bienes de dominio público.
+      Desde el punto de vista de las empresas que prestan servicios de cualquier tipo en el aeropuerto y de sus trabajadores, igualmente se distinguen las mismas zonas donde realizan su actividad, siendo necesaria la preceptiva autorizacion de AENA y/o disponer de un contrato suscrito con esta mercantil. Los trabajadores y personal de dichas empresas deberan disponer, conforme requiere el PNS, de las acreditaciones aeroportuarias correspondientes en funcion de la zona donde realicen su trabajo. Los aeropuertos son, ademas, lugares que a menudo presentan grandes concentraciones de personas, lo que hace que sean consideradas como infraestructuras sensibles, tanto desde el punto de vista de la Seguridad Aeroportuaria como de la Seguridad Ciudadana, al resultar idoneos para poderse llevar a cabo actividades calificadas por la normativa penal o sancionadora como delitos o faltas administrativas. Conforme al Real Decreto Ley 13/2010 de 3 de diciembre de actuaciones en el ambito fiscal, laboral y liberalizadoras para fomentar la inversion y la creacion de empleo, AENA asume el conjunto de funciones y obligaciones atribuidas a la antigua Entidad Publica Empresarial AENA en materia de gestion y explotacion de los servicios aeroportuarios, asi como cualesquiera otras que la normativa nacional o internacional atribuya a los gestores aeroportuarios. Mediante esta norma se asignan y quedan integrados en el patrimonio de esta mercantil publica los bienes adscritos a la antigua EPE afectos al desarrollo de la actividad aeroportuaria, comercial u otros servicios estatales vinculados a la gestion aeroportuaria, incluidos los de transito aereo de aerodromo, dejando ademas de tener la naturaleza de bienes de dominio publico.
     questions_and_answers:
       - question: |
-          ¿Qué se requiere para que las empresas presten servicios en el aeropuerto?
+          Que se requiere para que las empresas presten servicios en el aeropuerto?
         answer: |
-          Las empresas necesitan la preceptiva autorización de AENA y/o disponer de un contrato suscrito con esta mercantil para prestar servicios en el aeropuerto.
+          Las empresas necesitan la preceptiva autorizacion de AENA y/o disponer de un contrato suscrito con esta mercantil para prestar servicios en el aeropuerto.
       - question: |
-          ¿Qué documentación deben poseer los trabajadores de empresas que operan en el aeropuerto?
+          Que documentacion deben poseer los trabajadores de empresas que operan en el aeropuerto?
         answer: |
-          Los trabajadores deben disponer de las acreditaciones aeroportuarias correspondientes, conforme requiere el PNS, según la zona donde realicen su trabajo.
+          Los trabajadores deben disponer de las acreditaciones aeroportuarias correspondientes, conforme requiere el PNS, segun la zona donde realicen su trabajo.
       - question: |
-          ¿Por qué se consideran sensibles los aeropuertos desde el punto de vista de seguridad?
+          Por que se consideran sensibles los aeropuertos desde el punto de vista de seguridad?
         answer: |
-          Los aeropuertos son considerados infraestructuras sensibles debido a las grandes concentraciones de personas y al riesgo de actividades calificadas como delitos o faltas administrativas según la normativa penal o sancionadora.
+          Los aeropuertos son considerados infraestructuras sensibles debido a las grandes concentraciones de personas y al riesgo de actividades calificadas como delitos o faltas administrativas segun la normativa penal o sancionadora.
       - question: |
-          ¿Qué funciones asume AENA según el Real Decreto Ley 13/2010?
+          Que funciones asume AENA segun el Real Decreto Ley 13/2010?
         answer: |
-          Según el Real Decreto Ley 13/2010, AENA asume las funciones y obligaciones de la antigua Entidad Pública Empresarial AENA en la gestión y explotación de servicios aeroportuarios, así como otras funciones asignadas por normativa nacional o internacional.
+          Segun el Real Decreto Ley 13/2010, AENA asume las funciones y obligaciones de la antigua Entidad Publica Empresarial AENA en la gestion y explotacion de servicios aeroportuarios, asi como otras funciones asignadas por normativa nacional o internacional.
       - question: |
-          ¿Qué bienes se integran en el patrimonio de AENA según esta normativa?
+          Que bienes se integran en el patrimonio de AENA segun esta normativa?
         answer: |
-          Se integran en el patrimonio de AENA los bienes adscritos a la antigua EPE relacionados con la actividad aeroportuaria, comercial u otros servicios estatales vinculados a la gestión aeroportuaria, incluidos los de tránsito aéreo de aeródromo, dejando de ser bienes de dominio público.
+          Se integran en el patrimonio de AENA los bienes adscritos a la antigua EPE relacionados con la actividad aeroportuaria, comercial u otros servicios estatales vinculados a la gestion aeroportuaria, incluidos los de transito aereo de aerodromo, dejando de ser bienes de dominio publico.
   - context: |
-      Art. 1.- Ámbito de Aplicación Las presentes normas dictadas por AENA, como propietaria de las instalaciones aeroportuarias en virtud de sus atribuciones, serán de aplicación en los espacios susceptibles de ser utilizados por personas que sean usuarios del aeropuerto como viajeros, acompañantes de viajeros y personas en general que se encuentren en la infraestructura aeroportuaria. Asimismo, será de aplicación a todos los que presten sus servicios en un aeropuerto o realicen una actividad comercial autorizada por AENA.
-      Todo ello, sin perjuicio de la aplicación de las normas de obligado cumplimiento contenidas en el Programa Nacional de Seguridad, en la Normativa de Seguridad en Plataforma, Normativa de Tráfico y cualquier otra disposición legal o reglamentaria aplicable en cada momento.
-      Las presentes normas serán de aplicación a los siguientes espacios:
-      Urbanización del Aeropuerto, sus viales de acceso, jardines, aceras, pasos peatonales, y demás zonas de acceso público que no estén en un recinto cerrado.
-      Terminales de viajeros, zona pública y zona de acceso controlado y restringido, y cualquier edificio que forme parte de la infraestructura aeroportuaria.
+      Art. 1.- Ambito de Aplicacion Las presentes normas dictadas por AENA, como propietaria de las instalaciones aeroportuarias en virtud de sus atribuciones, seran de aplicacion en los espacios susceptibles de ser utilizados por personas que sean usuarios del aeropuerto como viajeros, acompanantes de viajeros y personas en general que se encuentren en la infraestructura aeroportuaria. Asimismo, sera de aplicacion a todos los que presten sus servicios en un aeropuerto o realicen una actividad comercial autorizada por AENA. Todo ello, sin perjuicio de la aplicacion de las normas de obligado cumplimiento contenidas en el Programa Nacional de Seguridad, en la Normativa de Seguridad en Plataforma, Normativa de Trafico y cualquier otra disposicion legal o reglamentaria aplicable en cada momento. Las presentes normas seran de aplicacion a los siguientes espacios: Urbanizacion del Aeropuerto, sus viales de acceso, jardines, aceras, pasos peatonales, y demas zonas de acceso publico que no esten en un recinto cerrado. Terminales de viajeros, zona publica y zona de acceso controlado y restringido, y cualquier edificio que forme parte de la infraestructura aeroportuaria.
     questions_and_answers:
       - question: |
-          ¿A quiénes se aplican las normas dictadas por AENA según el Art. 1?
+          ¿A quienes se aplican las normas dictadas por AENA segun el Art. 1?
         answer: |
-          Las normas se aplican a los usuarios del aeropuerto, como viajeros, acompañantes y personas en general en la infraestructura, así como a quienes presten servicios en el aeropuerto o realicen actividades comerciales autorizadas por AENA.
+          Las normas se aplican a los usuarios del aeropuerto, como viajeros, acompanantes y personas en general en la infraestructura, asi como a quienes presten servicios en el aeropuerto o realicen actividades comerciales autorizadas por AENA.
       - question: |
-          ¿Qué normativas adicionales deben cumplirse además de las dictadas por AENA?
+          ¿Que normativas adicionales deben cumplirse ademas de las dictadas por AENA?
         answer: |
-          Además de las normas de AENA, deben cumplirse las contenidas en el Programa Nacional de Seguridad, la Normativa de Seguridad en Plataforma, la Normativa de Tráfico y cualquier disposición legal o reglamentaria aplicable.
+          Ademas de las normas de AENA, deben cumplirse las contenidas en el Programa Nacional de Seguridad, la Normativa de Seguridad en Plataforma, la Normativa de Trafico y cualquier disposicion legal o reglamentaria aplicable.
       - question: |
-          ¿A qué espacios se aplican específicamente estas normas?
+          ¿A que espacios se aplican especificamente estas normas?
         answer: |
-          Estas normas se aplican a la urbanización del aeropuerto, incluidos viales de acceso, jardines, aceras, pasos peatonales, zonas públicas no cerradas, terminales de viajeros, zonas públicas y de acceso controlado, y cualquier edificio de la infraestructura aeroportuaria.
+          Estas normas se aplican a la urbanizacion del aeropuerto, incluidos viales de acceso, jardines, aceras, pasos peatonales, zonas publicas no cerradas, terminales de viajeros, zonas publicas y de acceso controlado, y cualquier edificio de la infraestructura aeroportuaria.
       - question: |
-          ¿Incluyen estas normas las zonas de acceso público fuera de recintos cerrados?
+          ¿Incluyen estas normas las zonas de acceso publico fuera de recintos cerrados?
         answer: |
-          Sí, estas normas incluyen las zonas de acceso público como viales, jardines, aceras y pasos peatonales que no estén en recintos cerrados.
+          Si, estas normas incluyen las zonas de acceso publico como viales, jardines, aceras y pasos peatonales que no esten en recintos cerrados.
       - question: |
-          ¿Qué partes de las terminales están sujetas a estas normas?
+          ¿Que partes de las terminales estan sujetas a estas normas?
         answer: |
-          Las terminales de viajeros, tanto en sus zonas públicas como en las de acceso controlado y restringido, están sujetas a estas normas.
+          Las terminales de viajeros, tanto en sus zonas publicas como en las de acceso controlado y restringido, estan sujetas a estas normas.
   - context: |
-      Art. 2.- Actividades y comportamientos no permitidos en los recintos aeroportuarios
-      2.1. Con carácter general, está prohibido realizar cualquier tipo de actividad comercial y/o publicitaria, así como el ofrecimiento de cualquier servicio en la infraestructura aeroportuaria sin detentar la correspondiente autorización de AENA o sin disponer del correspondiente contrato suscrito con AENA.
-      No obstante, lo anterior, existen en los Aeropuertos ciertas actividades que sin estar amparadas en una autorización expresa o un contrato con AENA, deben ser permitidas su ejercicio por AENA bien por disposición judicial, resoluciones de la CNMC o de otros órganos administrativos, siempre que dispongan de las oportunas licencias y requisitos para su ejercicio conforme a su normativa aplicable. Con carácter explicativo se citan entre otras: recogida de viajeros en la terminal por tour operadores o empresas de vtc´s, entrega y devolución de vehículos a viajeros por empresas de parking, rent a car no arrendatarios de AENA etc. Estas actividades se considerarán como permitidas por AENA.
+      Art. 2.- Actividades y comportamientos no permitidos en los recintos aeroportuarios. 
+      2.1. Con caracter general, esta prohibido realizar cualquier tipo de actividad comercial y/o publicitaria, asi como el ofrecimiento de cualquier servicio en la infraestructura aeroportuaria sin detentar la correspondiente autorizacion de AENA o sin disponer del correspondiente contrato suscrito con AENA. No obstante, lo anterior, existen en los Aeropuertos ciertas actividades que sin estar amparadas en una autorizacion expresa o un contrato con AENA, deben ser permitidas su ejercicio por AENA bien por disposicion judicial, resoluciones de la CNMC o de otros organos administrativos, siempre que dispongan de las oportunas licencias y requisitos para su ejercicio conforme a su normativa aplicable. Con caracter explicativo se citan entre otras: recogida de viajeros en la terminal por tour operadores o empresas de vtc´s, entrega y devolucion de vehiculos a viajeros por empresas de parking, rent a car no arrendatarios de AENA etc. Estas actividades se consideraran como permitidas por AENA.
     questions_and_answers:
       - question: |
-          ¿Qué tipo de actividades están prohibidas en los recintos aeroportuarios sin autorización de AENA?
+          ¿Que tipo de actividades estan prohibidas en los recintos aeroportuarios sin autorizacion de AENA?
         answer: |
-          Está prohibido realizar actividades comerciales, publicitarias y ofrecer servicios sin la correspondiente autorización o contrato suscrito con AENA.
+          Esta prohibido realizar actividades comerciales, publicitarias y ofrecer servicios sin la correspondiente autorizacion o contrato suscrito con AENA.
       - question: |
-          ¿Existen actividades permitidas sin contrato o autorización expresa de AENA?
+          ¿Existen actividades permitidas sin contrato o autorizacion expresa de AENA?
         answer: |
-          Sí, actividades como la recogida de viajeros por tour operadores o empresas de VTC, entrega y devolución de vehículos por empresas de parking y rent a car no arrendatarios de AENA, siempre que cumplan con las licencias y requisitos legales, están permitidas.
+          Si, actividades como la recogida de viajeros por tour operadores o empresas de VTC, entrega y devolucion de vehiculos por empresas de parking y rent a car no arrendatarios de AENA, siempre que cumplan con las licencias y requisitos legales, estan permitidas.
       - question: |
-          ¿Qué requisitos deben cumplir las actividades permitidas sin contrato con AENA?
+          ¿Que requisitos deben cumplir las actividades permitidas sin contrato con AENA?
         answer: |
           Deben disponer de las oportunas licencias y cumplir con los requisitos establecidos por su normativa aplicable.
       - question: |
-          ¿Qué organismos pueden permitir actividades en los aeropuertos sin autorización de AENA?
+          ¿Que organismos pueden permitir actividades en los aeropuertos sin autorizacion de AENA?
         answer: |
-          Las actividades pueden ser permitidas por disposición judicial, resoluciones de la CNMC o de otros órganos administrativos.
+          Las actividades pueden ser permitidas por disposicion judicial, resoluciones de la CNMC o de otros organos administrativos.
       - question: |
-          ¿Qué ejemplos de actividades permitidas sin contrato con AENA se mencionan?
+          ¿Que ejemplos de actividades permitidas sin contrato con AENA se mencionan?
         answer: |
-          Se mencionan la recogida de viajeros por tour operadores o empresas de VTC, la entrega y devolución de vehículos por empresas de parking, y rent a car no arrendatarios de AENA.
+          Se mencionan la recogida de viajeros por tour operadores o empresas de VTC, la entrega y devolucion de vehiculos por empresas de parking, y rent a car no arrendatarios de AENA.
 document_outline: |
-  Este documento trara sobre las Normas de uso de los aeropuertos así como las normas de funcionamiento interno de los aeropuertos.
+  Este documento trata sobre las Normas de uso de los aeropuertos asi como las normas de funcionamiento interno de los aeropuertos.
 document:
   repo: https://github.com/javigsg10/aena_knowledge_demo.git
   commit: 3c7f1fe
