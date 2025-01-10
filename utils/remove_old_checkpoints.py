@@ -4,8 +4,8 @@ from pathlib import Path
 import shutil
 
 # Directories to monitor
-hf_format    = "/root/.local/share/instructlab/checkpoints/hf_format"
-full_state  = "/root/.local/share/instructlab/checkpoints/full_state"
+hf_format = "/root/.local/share/instructlab/checkpoints/hf_format"
+full_state = "/root/.local/share/instructlab/checkpoints/full_state"
 
 # Time interval (in seconds) between checks
 CHECK_INTERVAL = 5
@@ -18,12 +18,10 @@ def get_folders(directory):
     )
 
 def keep_latest_folder(directory):
-    """Ensure only the latest folder remains in the directory."""
+    """Ensure only the latest folder remains in the directory if more than one exists."""
     folders = get_folders(directory)
-    if len(folders) == 0:
-        return
-    elif len(folders) > 1:
-        for folder in folders[:-1]:
+    if len(folders) > 1:  # Only delete if there are more than one folder
+        for folder in folders[:-1]:  # Keep the latest folder
             shutil.rmtree(folder)
             print(f"Deleted folder: {folder}")
 
