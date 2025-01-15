@@ -133,6 +133,6 @@ document_outline: |
   Este documento trata sobre el Informe de Gestión Intermedio Consolidado correspondiente al período de nueve meses finalizado el 30 de septiembre de 2024.
 document:
   repo: https://github.com/javigsg10/aena_knowledge_demo.git
-  commit: 3c7f1fe
+  commit: 1a21959
   patterns:
-    - normas_uso_knowledge.md
+    - informe_gestion.md
