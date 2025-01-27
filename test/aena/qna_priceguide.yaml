@@ -1,0 +1,126 @@
+version: 3
+domain: legal
+created_by: IBM Data & AI Tech Sales Team
+seed_examples:
+  - context: |
+      This incentive means a 100% refund of the provision of airport facilities charge (passenger charge) in all flights that occur between the 1st of January 2024 to the 31st of December 2024 with a take-off from La Palma and arriving in Mainland Spain, Balearic Islands or an International destination. It is worth clarifying that this charge does not accrue on arrivals. This commercial incentive shall not be accumulated with any other potential incentives that Aena may approve with effect on the passenger charge. This incentive will apply at a rate that has already taken into account all applicable incentives and discounts to La Palma Airport related to the passenger charge1. Airlines can apply for this incentive until the 31st of January 2025. From that date onwards and before the 28th of February 2025, Aena shall accrue the incentive. Once the incentive has been approved, Aena shall compensate the corresponding amount with any sums due by the beneficiaries, although this may not be possible in whole or in part by paying it in cash.  In all cases, a breakdown of the monthly amounts to which the incentive will be applied will be made.
+    questions_and_answers:
+      - question: |
+          What is the Extraordinary Incentive for La Palma Island Flights in 2024?
+        answer: |
+          It is a 100% refund of the airport facilities charge (passenger charge) for flights departing from La Palma to Mainland Spain, the Balearic Islands, or international destinations between January 1, 2024, and December 31, 2024.
+      - question: |
+          Which flights are eligible for this incentive?
+        answer: |
+          Flights that take off from La Palma and arrive at Mainland Spain, the Balearic Islands, or international destinations during the year 2024 are eligible. Arrivals are not included.
+      - question: |
+          Is it possible to combine this incentive with other incentives from Aena?
+        answer: |
+          No, this incentive cannot be combined with any other incentives from Aena that affect the passenger charge.
+      - question: |
+          What is the application deadline for airlines to claim this incentive?
+        answer: |
+          Airlines must apply for the incentive by January 31, 2025.
+      - question: |
+          How will Aena handle the refund process for this incentive?
+        answer: |
+          Aena will either offset the approved refund against any sums owed by the beneficiary or pay the refund in cash if necessary. A breakdown of the monthly amounts eligible for the incentive will also be provided.
+  - context: |
+      Airlines shall be entitled to the incentives explained under this heading. The incentives are applicable in the Summer and Winter seasons of 2024, Summer and Winter 2025 and Summer and Winter 2026. Seasons are defined in article 72.161 of Law 21/2003 of 7th July on Air Safety and they are considered independently. The incentive is for contributing to the growth in the number of passengers on routes operated from airports in the network with less than 3 million passengers annually in 2023 (Annex I), applicable in the summer and winter seasons of 2024, 2025, and 2026. The incentive will be calculated as an amount equivalent to 100% of the average departure passenger charge (with two decimal figures) of the airline per route. The incentives shall apply exclusively to the number of additional departure passengers on the route concerned compared to the 2023 equivalent season that the airline carried at each airport of the Aena S.M.E., S.A ´s network and Murcia Region International Airport (AIRM). The incentive will be proportional to the contribution to the growth generated in that route by each of the airlines operating it. In all the above, the number of passengers considered for the incentive of each airline will have the cap on the number of passengers that the airline has grown at the airport. In this case, their distribution by route will be proportional to the contribution of the airline to the growth of each route.
+    questions_and_answers:
+      - question: |
+          Which seasons are covered by the passenger growth incentives?
+        answer: |
+          The incentives apply to the Summer and Winter seasons of 2024, 2025, and 2026, as defined in Article 72.161 of Law 21/2003 on Air Safety.
+      - question: |
+          What is the main goal of this incentive?
+        answer: |
+          The incentive aims to encourage passenger growth on routes operated from airports in Aena’s network that had less than 3 million passengers annually in 2023.
+      - question: |
+          How is the incentive amount calculated for airlines?
+        answer: |
+          The incentive is calculated as 100% of the average departure passenger charge (rounded to two decimal places) of the airline per route, applied exclusively to the number of additional departure passengers compared to the equivalent season in 2023.
+      - question: |
+          What is the cap for the number of passengers considered for this incentive?
+        answer: |
+          The number of passengers considered is capped at the total passenger growth that the airline has achieved at the airport. The distribution by route is proportional to the airline's contribution to the growth of each route.
+      - question: |
+          Are the incentives calculated collectively or individually for each season?
+        answer: |
+          The incentives are calculated independently for each season (Summer and Winter), as defined by the applicable law.
+  - context: |
+      CHARGE ON SLOT ALLOCATION. Definition: This charge is paid for the services provided by the Spanish Slots Coordinator (Asociación Española para la Coordinación y Facilitación de Franjas Horarias-AECFA-) relating to the slots allocation at coordinated and schedules facilitated airports. The amount of this tax will be collected by Aena and then will be transferred to AECFA. Taxpayer: Aircraft operators that have slots allocated or schedules facilitated at these airports in the final programming of each calendar month. Those aircraft operators with 10 or less slots allocated or schedules facilitated per airport are exempted. Rates: 0,45 € per slot allocated and 0,23 € per Schedule facilitated.
+    questions_and_answers:
+      - question: |
+          What is the Charge on Slot Allocation?
+        answer: |
+          It is a charge paid for services provided by the Spanish Slots Coordinator (AECFA) related to slot allocation and schedule facilitation at coordinated and schedules-facilitated airports.
+      - question: |
+          Who is responsible for paying this charge?
+        answer: |
+          Aircraft operators with allocated slots or facilitated schedules in the final programming of each calendar month are responsible for paying the charge, except those with 10 or fewer slots per airport.
+      - question: |
+          What are the rates for the Charge on Slot Allocation?
+        answer: |
+          The charge is €0.45 per allocated slot and €0.23 per facilitated schedule.
+      - question: |
+          Are there any exemptions from the Charge on Slot Allocation?
+        answer: |
+          Yes, aircraft operators with 10 or fewer allocated slots or facilitated schedules per airport are exempt from this charge.
+      - question: |
+          How is the Charge on Slot Allocation managed?
+        answer: |
+          The charge is collected by Aena and then transferred to the Spanish Slots Coordinator (AECFA).
+  - context: |
+      Definition of Maximum Take-Off Weight. Article 72.3 of Law 21/2003 defines the Maximum Take-Off Weight (MTOW) as the maximum certified take-off weight of the aircraft, expressed in metric tonnes, as appearing on the airworthiness certificate. In the event the weight is not known, the weight of the heaviest known aircraft of the same type will be used. Information to be provided regarding the MTOW of aircraft In order to correctly calculate the airport charges, aircraft operators must send the documentation proving the MTOW of the aircraft to the following address: tablas.corporativas.flotas@aena.es . Such notification should be made at the time of the change in the characteristics of the aircraft, or at the issuance of the certificate in the case of an aircraft operating for the first time. To demonstrate the validity of the MTOW or its changes, a copy of the airworthiness certificate or the flight manual of the aircraft may be submitted, and failing that, a copy of the official noise certificate in accordance with the provisions of Annex 16 to the Convention on International Civil Aviation, or document of similar characteristics and validity issued by the State of registration of the aircraft. If the relevant MTOW data has not been provided, the highest known weight for the ICAO category of the aircraft will be charged. For this purpose, the reference will be the EASA database.
+    questions_and_answers:
+      - question: |
+          How is the MTOW?
+        answer: |
+          MTOW is defined as the maximum certified take-off weight of the aircraft, expressed in metric tonnes, as indicated on the airworthiness certificate. If this weight is unknown, the weight of the heaviest known aircraft of the same type will be used.
+      - question: |
+          What documentation can be provided to prove the MTOW of an aircraft?
+        answer: |
+          Documentation can include the airworthiness certificate, the flight manual, or the official noise certificate as per Annex 16 of the Convention on International Civil Aviation, or a similar valid document issued by the aircraft's country of registration.
+      - question: |
+          Where should aircraft operators send the documentation for MTOW verification?
+        answer: |
+          Operators must send the MTOW documentation to the email address: tablas.corporativas.flotas@aena.es.
+      - question: |
+          When should aircraft operators notify Aena about the MTOW of their aircraft?
+        answer: |
+          Operators should notify Aena when there is a change in the characteristics of the aircraft or when an aircraft operates for the first time, at the time of issuing its airworthiness certificate.
+      - question: |
+          What happens if an aircraft operator does not provide the MTOW information?
+        answer: |
+          If MTOW data is not provided, the highest known weight for the ICAO category of the aircraft will be used, with the reference being the EASA database.
+  - context: |
+      Information to be provide regarding aircraft noise. Prior to the flight departure, air carriers shall submit a copy of the official noise certificate in accordance with the provisions of Annex 16 to the Convention on International Civil Aviation, or a document of similar characteristics and validity issued by the State of registration of the aircraft. For the purposes of acoustic classification, those aircraft whose operators do not provide a noise certificate will be consider within the same category as an aircraft of the same manufacturer, model, type and number of engines for which a certificate is available until the corresponding certificate is accredited.
+    questions_and_answers:
+      - question: |
+          What document must air carriers submit regarding aircraft noise prior to flight departure?
+        answer: |
+          Air carriers must submit a copy of the official noise certificate in accordance with Annex 16 of the Convention on International Civil Aviation, or a similar valid document issued by the State of registration of the aircraft.
+      - question: |
+          What happens if an operator does not provide a noise certificate for an aircraft?
+        answer: |
+          The aircraft will be classified acoustically within the same category as another aircraft of the same manufacturer, model, type, and number of engines for which a noise certificate is available, until the proper certificate is provided.
+      - question: |
+          Why is the noise certificate required?
+        answer: |
+          The noise certificate is required to classify the aircraft acoustically and ensure compliance with international aviation noise regulations.
+      - question: |
+          Under which international framework is the noise certificate issued?
+        answer: |
+          The noise certificate is issued in accordance with Annex 16 of the Convention on International Civil Aviation.
+      - question: |
+          What determines the temporary acoustic classification of an aircraft without a noise certificate?
+        answer: |
+          The temporary classification is based on the acoustic category of another aircraft with the same manufacturer, model, type, and number of engines for which a noise certificate is available.
+document_outline: |
+  This document is about AENA's Price Guide for January 2025.
+document:
+  repo: https://github.com/BenitoMG/aena_knowledge.git
+  commit: 7b98eb0
+  patterns:
+    - 250101+Aena+price+guide+January+2025.md
