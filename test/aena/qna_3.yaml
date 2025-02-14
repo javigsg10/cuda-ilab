@@ -1,0 +1,171 @@
+version: 3
+domain: legal
+created_by: IBM Data & AI Tech Sales Team
+seed_examples:
+  - context: |
+      Estadísticas de Aena con respecto al incremento de pasajeros. Este es el informe de enero de 2025:
+      |                                | PASAJEROS   | PASAJEROS           |
+      |--------------------------------|-------------|---------------------|
+      | Aeropuertos                    | Total       | % Inc 2025 /s  2024 |
+      |--------------------------------|-------------|---------------------|
+      | ADOLFO SUÁREZ MADRID-BARAJAS   | 5.198.143   | 8,4%                |
+      | BARCELONA-EL PRAT J.T.         | 3.695.529   | 5,4%                |
+      | GRAN CANARIA                   | 1.370.749   | 6,2%                |
+      | MÁLAGA-COSTA DEL SOL           | 1.369.837   | 1,9%                |
+      | TENERIFE SUR                   | 1.287.940   | 6,8%                |
+      | ALICANTE-ELCHE MIGUEL HDEZ.    | 1.057.214   | 10,3%               |
+      | PALMA DE MALLORCA              | 909.795     | 2,2%                |
+      | VALENCIA                       | 707.028     | 8,0%                |
+    questions_and_answers:
+      - question: |
+          ¿Cuál ha sido el número total de pasajeros e incremento con respecto a 2024 del aeropuerto Adolfo Suárez Madrid-Barajas?
+        answer: |
+          El Aeropuerto Adolfo Suárez Madrid-Barajas ha tenido un total de 5.198.143 pasajeros que supone un aumento del 8,4% con respecto a 2024.
+      - question: |
+          ¿Cuántos pasajeros tuvo el Aeropuerto de Barcelona-El Prat en enero de 2025 y cuál fue su incremento respecto a 2024?
+        answer: |
+          El Aeropuerto de Barcelona-El Prat tuvo un total de 3.695.529 pasajeros en enero de 2025, con un incremento del 5,4% respecto a 2024.
+      - question: |
+          ¿Cuál fue el incremento porcentual de pasajeros en el Aeropuerto de Alicante-Elche Miguel Hernández?
+        answer: |
+          El Aeropuerto de Alicante-Elche Miguel Hernández tuvo un incremento del 10,3% en el número de pasajeros en enero de 2025 respecto a 2024.
+      - question: |
+          ¿Cuántos pasajeros pasaron por el Aeropuerto de Gran Canaria en enero de 2025?
+        answer: |
+          En enero de 2025, el Aeropuerto de Gran Canaria registró un total de 1.370.749 pasajeros.
+      - question: |
+          ¿Qué aeropuerto tuvo un mayor aumento porcentual en el número de pasajeros, Adolofo Suárez Madrid-Barajas o Barcelona-El Prat?
+        answer: |
+          El aeropuerto Adolofo Suárez Madrid-Barajas tuvo un aumento del 8,4% y Barcelona-El Prat del 5,4%, por lo tanto, el aeropuerto Adolofo Suárez Madrid-Barajas tuvo un mayor aumento en el número de pasajeros.
+  - context: |
+      Estadísticas de Aena con respecto al incremento de pasajeros en aeropuertos internacionales. Este es el informe de enero de 2025:
+      | JOAO PESSOA                  | 181.402     | 4,7%   |
+      | ARACAJU                      | 135.646     | 5,8%   |
+      | JUAZEIRO DO NORTE            | 48.581      | 8,5%   |
+      | CAMPINA GRANDE               | 12.670      | -59,4% |
+      | Total ANB                    | 1.646.383   | 2,3%   |
+      | Total aeropuertos brasileños | 4.070.518   | 5,0%   |
+    questions_and_answers:
+      - question: |
+          ¿Cuántos pasajeros tuvo el Aeropuerto de João Pessoa en enero de 2025 y cuál fue su incremento respecto a 2024?
+        answer: |
+          El Aeropuerto de João Pessoa registró un total de 181.402 pasajeros en enero de 2025, con un incremento del 4,7% respecto a 2024.
+      - question: |
+          ¿Qué aeropuerto presentó la mayor caída en el número de pasajeros en enero de 2025?
+        answer: |
+          El Aeropuerto de Campina Grande tuvo la mayor caída en el número de pasajeros, con un descenso del 59,4% en enero de 2025 respecto a 2024.
+      - question: |
+          ¿Cuál fue el incremento porcentual de pasajeros en el Aeropuerto de Juazeiro do Norte?
+        answer: |
+          El Aeropuerto de Juazeiro do Norte tuvo un incremento del 8,5% en el número de pasajeros en enero de 2025 respecto a 2024.
+      - question: |
+          ¿Cuántos pasajeros pasaron por el Aeropuerto de Aracaju según el informe de enero de 2025?
+        answer: |
+          En enero de 2025, el Aeropuerto de Aracaju registró un total de 135.646 pasajeros.
+      - question: |
+          ¿Cuántos pasajeros tuvieron en total los aeropuertos brasileños en enero de 2025 y cuál fue su incremento?
+        answer: |
+          Los aeropuertos brasileños registraron un total de 4.070.518 pasajeros en enero de 2025, con un incremento del 5,0% respecto al año anterior.
+  - context: |
+      Estadísticas de Aena con respecto al incremento de operaciones en los aeropuertos españoles. Este es el informe de enero de 2025:
+      | VALLADOLID                     | 396     | 5,3%                  |
+      | AEROPUERTO INTL. REGIÓN MURCIA | 347     | 25,7%                 |
+      | SAN SEBASTIÁN                  | 339     | -4,8%                 |
+      | LEÓN                           | 268     | 56,7%                 |
+      | BADAJOZ                        | 260     | 1,2%                  |
+      | ALGECIRAS /HELIPUERTO          | 244     | -15,9%                |
+      | HUESCA-PIRINEOS                | 156     | 136,4%                |
+      | ALBACETE                       | 62      | 10,7%                 |
+      | Total aeropuertos españoles    | 174.488 | 5,2%                  |
+    questions_and_answers:
+      - question: |
+          ¿Cuál fue la operativa en el Aeropuerto de Valladolid según el informe de enero de 2025 y cuál fue su incremento respecto a 2024?
+        answer: |
+          El Aeropuerto de Valladolid registró un total de 396 operaciones en enero de 2025, con un incremento del 5,3% respecto a 2024.
+      - question: |
+          ¿Qué aeropuerto tuvo el mayor incremento porcentual en el número de operaciones en enero de 2025, San Sebastián o León?
+        answer: |
+          León tuvo un aumento del 56,7% mientras que San Sebastián disminuyó el número de operaciones en un -4,8%, por lo tanto León tuvo un mayor incremento en el número de operaciones.
+      - question: |
+          ¿Cuál fue el total de operaciones en los aeropuertos españoles en enero de 2025 y cuál fue su crecimiento?
+        answer: |
+          Los aeropuertos españoles registraron un total de 174.488 operaciones en enero de 2025, con un crecimiento del 5,2% respecto a 2024.
+      - question: |
+          ¿Cuántas operaciones tuvo el Aeropuerto Internacional de la Región de Murcia y cuál fue su crecimiento respecto a 2024?
+        answer: |
+          El Aeropuerto Internacional de la Región de Murcia registró 347 operaciones en enero de 2025, con un incremento del 25,7% respecto al año anterior.
+      - question: |
+          ¿Cuántas operaciones se realizaron en el Helipuerto de Algeciras y cómo evolucionó con respecto a 2024?
+        answer: |
+          Se regitraron 156 opraciones que supone un descenso de un -15,9% en la operativa.
+  - context: |
+      Estadísticas de Aena con respecto al incremento de operaciones en aeropuertos internacionales. Este es el informe de enero de 2025:
+      | ARACAJU                      |    1.411 | 0,2%    |
+      | JUAZEIRO DO NORTE            |  562     | -4,7%   |
+      | CAMPINA GRANDE               |  231     | -48,3%  |
+      | Total ANB                    |   14.526 | -4,3%   |
+      | Total aeropuertos brasileños |   39.031 | -3,4%   |
+      | LONDRES-LUTON                |    9.177 | 6,3%    |
+      | Total Red Aena               |  222.696 | 3,6%    |
+    questions_and_answers:
+      - question: |
+          ¿Cuánto incrementó la operativa en el Aeropuerto de Valladolid según el informe de enero de 2025?
+        answer: |
+          El Aeropuerto de Aracaju registró un total de 1.411 operaciones en enero de 2025, con un incremento del 0,2% respecto a 2024.
+      - question: |
+          ¿Cuál fue el total de operaciones en los aeropuertos brasileños en enero de 2025 y cuál fue su variación respecto a 2024?
+        answer: |
+          En enero de 2025, los aeropuertos brasileños registraron un total de 39.031 operaciones, con una disminución del 3,4% respecto a 2024.
+      - question: |
+          ¿Cuántas operaciones tuvo el Aeropuerto de Juazeiro do Norte y cómo evolucionó con respecto a 2024?
+        answer: |
+          El Aeropuerto de Juazeiro do Norte tuvo un total de 562 operaciones en enero de 2025, con una disminución del 4,7% respecto a 2024.
+      - question: |
+          ¿Cuántas operaciones se registraron en el Aeropuerto de Londres-Luton y cuál fue su crecimiento según el informe de enero de 2025?
+        answer: |
+          El Aeropuerto de Londres-Luton tuvo un total de 9.177 operaciones en enero de 2025, con un incremento del 6,3% respecto al año anterior.
+      - question: |
+          ¿Cuál fue el total de operaciones en la Red Aena en enero de 2025 y cuál fue su crecimiento?
+        answer: |
+          En enero de 2025, la Red Aena registró un total de 222.696 operaciones, con un crecimiento del 3,6% respecto a 2024.
+  - context: |
+      Estadísticas de Aena con respecto al incremento de mercancías, el número son unidades de mercancías. Este es el informe de enero de 2025:
+      | VIGO                           | 35.563     | -0,9%                 |
+      | FUERTEVENTURA                  | 28.068     | -9,5%                 |
+      | GIRONA-COSTA BRAVA             | 11.090     | 5,1%                  |
+      | A CORUÑA                       | 4.940      | 0,6%                  |
+      | EL HIERRO                      | 4.795      | 9,3%                  |
+      | MELILLA                        | 3.919      | 79,6%                 |
+      | ASTURIAS                       | 551        | 211,3%                |
+      | LA GOMERA                      | 193        | -9,8%                 |
+      | SAN SEBASTIÁN                  | 53         | ---                   |
+      | ALMERÍA                        | 37         | ---                   |
+      | AEROPUERTO INTL. REGIÓN MURCIA | 0          | ---                   |
+    questions_and_answers:
+      - question: |
+          ¿Cuánta mercancía se transportó en el Aeropuerto de Vigo segun el informe de enero de 2025?
+        answer: |
+          En enero de 2025, el Aeropuerto de Vigo transportó un total de 35.563 mercancías, con una disminución del 0,9% respecto a 2024.
+      - question: |
+          ¿Cuánta mercancía se transportó en el Aeropuerto de Fuerteventura y cuál fue su evolución respecto a 2024?
+        answer: |
+          En enero de 2025, el Aeropuerto de Fuerteventura transportó 28.068 mercancías, con una disminución del 9,5% con respecto al año anterior.
+      - question: |
+          ¿Cuánta mercancía manejó el Aeropuerto de Melilla y cuál fue su incremento porcentual?
+        answer: |
+          El Aeropuerto de Melilla transportó 3.919 mercancías en enero de 2025, con un aumento del 79,6% respecto a 2024.
+      - question: |
+          ¿Cuál fue el aumento de mercancías en el aeropuerto San Sebastián?
+        answer: |
+          El aeropuerto de San Sebastián registró 53 mercancías pero no hay incremento porcentual según el informe de enero de 2025
+      - question: |
+          ¿Cuánta mercancía movió el Aeropuerto de Murcia?
+        answer: |
+          Según el informe de enero de 2025 no hubo movimiento de mercancías en el Aeropuerto de Murcia.
+document_outline: |
+  Este documento muestra estadisticas sobre las variaciones en los números de pasajeros, operaciones y mercancías en la red de aeropuertos de Aena. Muestra datos tanto de aeropuertos españoles, como brasileños o el inglés de London-Luton.
+document:
+  repo: https://github.com/javigsg10/aena_knowledge_demo.git
+  commit: f908bb1
+  patterns:
+    - estadisticas_enero_2025.md
