@@ -181,7 +181,7 @@ seed_examples:
       - question: |
           ¿Qué porcentaje de la plantilla de Aena está compuesta por mujeres?
         answer: |
-          Las mujeres representan el **37,7%** de la plantilla de Aena y ocupan el **50%** de los puestos en el Consejo de Administración, demostrando el compromiso de la empresa con la igualdad de género y la diversidad en su estructura organizativa.
+          Las mujeres representan el 37,7% de la plantilla de Aena y ocupan el 50% de los puestos en el Consejo de Administración, demostrando el compromiso de la empresa con la igualdad de género y la diversidad en su estructura organizativa.
 document_outline: |
   Este documento muestra el Informe de Sostenibilidad del Aena en 2023. En el informe se muestra información económica y financiera, Informe de sostenibilidad con los modelos de gobierno sostenible, compromiso con la sociedad y Derechos Humanos o Innovación. Por último hay un innorme anual del Gobierno Corporativo (IAGC) y un informe anual sobre las Remuneraciones de los Consejeros (IARC)
 document:
